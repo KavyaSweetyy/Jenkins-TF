@@ -9,3 +9,7 @@ tags = {
     Name = "TF-Instance-sample"
 }
 }
+
+resource "aws_s3_bucket" "s3terra" {
+  bucket = "kav-div-bucket"
+}
